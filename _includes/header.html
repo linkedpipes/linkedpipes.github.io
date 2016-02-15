@@ -3,6 +3,9 @@
 		<div class="nav-wrapper container">
 			<a id="logo-container" href="{{ site.url }}" class="brand-logo">LinkedPipes</a>
 			<ul class="right hide-on-med-and-down">
+			<li><a title="ETL" href="http://etl.linkedpipes.com"><i class="material-icons">file_upload</i></a></li>
+			<li><a title="Visualization" href="http://visualization.linkedpipes.com"><i class="material-icons">visibility</i></a></li>
+			
 			{% assign pages = site.pages | sort: 'order' %}
 			{% for my_page in pages %}
 			  {% if my_page.title %}
@@ -16,6 +19,9 @@
 			</ul>
 			<ul id="slide-out" class="side-nav">
 				<li class="logo light-blue lighten-1">LinkedPipes</li>
+				<li><a title="ETL" href="http://etl.linkedpipes.com" class="waves-effect waves-orange"><i class="material-icons left">file_upload</i>ETL</a></li>
+				<li><a title="Visualization" href="http://visualization.linkedpipes.com" class="waves-effect waves-orange"><i class="material-icons left">visibility</i>Visualization</a></li>
+
   			{% assign pages = site.pages | sort: 'order' %}
 				{% for my_page in pages %}
 				  {% if my_page.title %}
