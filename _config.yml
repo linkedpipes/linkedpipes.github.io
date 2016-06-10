@@ -1,6 +1,10 @@
 # Site settings
 title: LinkedPipes
 email: klimek@opendata.cz
+author: 
+    name: "Jakub Klímek"
+    twitter: jakub_klimek
+
 description: > # this means to ignore newlines until "baseurl:"
   LinkedPipes is a suite of open-source software for Linked Data
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -10,8 +14,6 @@ url: "http://linkedpipes.com" # the base hostname & protocol for your site
 markdown: kramdown
 excerpt_separator: <!--more-->
 
-sass:
-    sass_dir: _sass
 gems:
   - jekyll-mentions
   - jekyll-feed
